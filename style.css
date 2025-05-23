@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid pink;
+    color: red;
+    font-size: 14px;
+}
+
+.hxh {
+    font-size: 44px;
+    color: #fff;
+}
+
+.hxh.active {
+    color: pink;
+}
